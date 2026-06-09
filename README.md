@@ -172,20 +172,25 @@ Just a note: I noticed a glitch where the waveform is not loaded into the simula
 
 ## To read
 I used the Shawn Hymel training a lot, albeit, using a different environment:
+
 https://www.youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb
 
 I also suggest checking any of the Ben Heck element 14 videos on youtube about FPGAs, he explains them very well.
 
 I also recommend giving the Nandland site a look, it has interesting projects and a waaaaay more detailed take on FPGAs compared to myself:
+
 [Nandland – Learn FPGA, VHDL & Verilog](https://nandland.com/)
 
 Some general knowledge on FPGAs can be extracted from here:
+
 [EEVblog #496 - What Is An FPGA? - YouTube](https://www.youtube.com/watch?v=gUsHwi4M4xE&t=1s)
 
 For the PWM and sigma-delta modulator:
+
 https://www.fpga4fun.com/PWM_DAC.html
 
 We have a Verilog syntax cheat sheet:
+
 https://marceluda.github.io/rp_dummy/EEOF2018/Verilog_Cheat_Sheet.pdf
 
 Lastly, I will be using the fpga4fun website a lot, practically running along it. I used it extensively when I was first learning FPGAs.
