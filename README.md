@@ -127,7 +127,7 @@ Lastly, a practical note: it must be kept in mind that the speed at which we exe
 
 Mind, we usually get an estimation of how fast we can maximum go with our design after compiling our code (check the details) where the toolchain will consider the clock skew, the module sizes and the different setup and hold times. Going faster than that estimation will lead to glitches.
 
-#### Project structing
+#### Project structure
 Something to remember regarding project organisation is that we import Verilog files into one another within code. Unlike in “C” though this importing happens through calling modules by their local names, like classes would be defined. Eventually, the “.v” files – and our entire code - are thus organised in a tree-like hierarchy.
 
 The top module name should be the same as the project name to help constructing the project properly (the toolchain should be able to figure out the hierarchy by itself anyway though experience suggests naming helps).
